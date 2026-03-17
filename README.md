@@ -28,11 +28,10 @@ In our neural network architecture, $H_\theta(q,p)$ learns the unknown Hamiltoni
 
 ---
 
-## Reproducibility (How to Run)
+## How to Run
 
 The code is structured to be completely reproducible with fixed random seeds. 
 
-**Runing**
 ```bash
 pip install -r requirements.txt
 

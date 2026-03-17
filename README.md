@@ -2,7 +2,7 @@
 
 **Northwestern University - EE495 Scientific Machine Learning (Final Project)** **Author:** Muyuan Zhuo
 
-[![Presentation Video](https://www.youtube.com/watch?v=9uV-9g-HunI)]
+[![Presentation Video](https://img.shields.io/badge/YouTube-Project_Presentation-red?logo=youtube)](https://www.youtube.com/watch?v=9uV-9g-HunI&t=2s)
 [![Report](https://img.shields.io/badge/PDF-Project_Report-blue)](./report/EE495_SML_Project.pdf)
 
 ## 📌 Project Overview
@@ -35,3 +35,7 @@ The code is structured to be completely reproducible with fixed random seeds.
 **1. Install Dependencies**
 ```bash
 pip install -r requirements.txt
+
+**2. Run the System Identification**
+```bash
+python SML_project_code.ipynb

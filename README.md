@@ -5,7 +5,7 @@
 [![Presentation Video](https://img.shields.io/badge/YouTube-Project_Presentation-red?logo=youtube)](https://www.youtube.com/watch?v=9uV-9g-HunI&t=2s)
 [![Report](https://img.shields.io/badge/PDF-Project_Report-blue)](./EE495_SML_Project.pdf)
 
-## 📌 Project Overview
+## Project Overview
 This project extends the concept of **Hamiltonian Neural Networks (HNNs)** to non-conservative systems. Standard Neural Networks often overfit when exposed to sparse and noisy sensor data. While standard HNNs solve this by embedding energy conservation laws, they strictly assume conservative systems (where energy does not decay). 
 
 In this repository, we propose a **Damped-HNN**. By hard-coding a learnable dissipation term into the network's physical priors, the model can:
@@ -14,7 +14,7 @@ In this repository, we propose a **Damped-HNN**. By hard-coding a learnable diss
 
 ---
 
-## 🧮 Math Development (Physics Prior)
+## Math Development (Physics Prior)
 
 For an ideal, frictionless Hamiltonian system, the state variables $(q, p)$ evolve according to Hamilton's equations:
 
@@ -28,14 +28,12 @@ In our neural network architecture, $H_\theta(q,p)$ learns the unknown Hamiltoni
 
 ---
 
-## 🚀 Reproducibility (How to Run)
+## Reproducibility (How to Run)
 
 The code is structured to be completely reproducible with fixed random seeds. 
 
-**1. Install Dependencies**
+**Runing**
 ```bash
 pip install -r requirements.txt
 
-**2. Run the System Identification**
-```bash
 python SML_project_code.ipynb

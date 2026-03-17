@@ -3,7 +3,7 @@
 **Northwestern University - EE495 Scientific Machine Learning (Final Project)** **Author:** Muyuan Zhuo
 
 [![Presentation Video](https://img.shields.io/badge/YouTube-Project_Presentation-red?logo=youtube)](https://www.youtube.com/watch?v=9uV-9g-HunI&t=2s)
-[![Report](https://img.shields.io/badge/PDF-Project_Report-blue)](./report/EE495_SML_Project.pdf)
+[![Report](https://img.shields.io/badge/PDF-Project_Report-blue)](./EE495_SML_Project.pdf)
 
 ## 📌 Project Overview
 This project extends the concept of **Hamiltonian Neural Networks (HNNs)** to non-conservative systems. Standard Neural Networks often overfit when exposed to sparse and noisy sensor data. While standard HNNs solve this by embedding energy conservation laws, they strictly assume conservative systems (where energy does not decay). 
